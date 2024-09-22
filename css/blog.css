@@ -1,0 +1,113 @@
+.text_article {
+    text-align: center;
+}
+
+.blog_article h1 {
+    font-size: 3rem;
+}
+
+
+.search_article {
+    display: flex;
+    justify-content: center;
+}
+
+#search {
+    border: none;
+    width: 59%;
+    height: 80px;
+    border-radius: 1rem;
+    padding-left: 2rem;
+  }
+
+
+  .info_article {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+  }
+
+  .card_article {
+    display:  flex;
+    margin-top: 2rem;
+  }
+
+  .card_article img {
+    border-radius: 1rem;
+  }
+
+  .article_content {
+    margin-left: 2rem;
+  }
+
+  .article_content p {
+    width: 53%;
+    color: #00000099;
+    font-size: 0.9rem;
+  }
+
+  .info_article img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .info_article p {
+    font-size: 0.8rem;
+    color: #00000099;
+
+  }
+
+  .tasty_recipes_content {
+   
+        width: 34%; 
+     
+  }
+
+  .tasty_recipes_content h1 {
+    font-size: 2rem;
+  }
+
+  .choice_recipes {
+    display: flex;
+  }
+
+  .tasty_recipes_content .card-recipes .text_card_subtitle h2 {
+    width:  71%;
+  }
+
+
+  .square {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 0.8rem;
+    border: solid 1px #0000001A;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#black {
+    background-color: black;
+    color: white;
+}
+
+#black h3{
+    color: white;
+}
+
+
+.square h3 {
+    margin: 0;  
+    color: black;  
+}
+
+.filter_number {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 3rem;
+    gap: 1rem;
+}
+

@@ -13,6 +13,15 @@
       rel="stylesheet"
       href="https://cdn-uicons.flaticon.com/2.5.1/uicons-solid-chubby/css/uicons-solid-chubby.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css\main.css" class="css" />
+    <link rel="stylesheet" href="css\header.css" class="css" />
     <link rel="stylesheet" href="css\style.css" class="css" />
   </head>
   <body>
@@ -24,17 +33,17 @@
       </div>
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Recipes</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">About us</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="recipes.html">Recipes</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about_us.html">About us</a></li>
         </ul>
       </nav>
       <div id="rs">
-        <i class="fi fi-brands-facebook"></i>
-        <i class="fi fi-brands-twitter"></i>
-        <i class="fi fi-brands-instagram"></i>
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
       </div>
     </header>
     <main>
@@ -379,16 +388,18 @@
         </div>
       </section>
       <section class="newsletter">
-        <div class="inbox_container">
-          <h1>Deliciousness to your inbox</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqut enim ad minim
-          </p>
-        </div>
-        <div class="email-subscribe">
-          <input type="email" value="Your email address.." id="email" name="email" required />
-          <button class="btn position" type="submit">Subscribe</button>
+        <div class="newsletter_container">
+          <div class="inbox_container">
+            <h1>Deliciousness to your inbox</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqut enim ad minim
+            </p>
+          </div>
+          <div class="email-subscribe">
+            <input type="email" value="Your email address.." id="email" name="email" required />
+            <button class="btn position" type="submit">Subscribe</button>
+          </div>
         </div>
         <img
           class="bottom-left-image"
@@ -410,20 +421,20 @@
         <div>
           <nav>
             <ul>
-              <li>Recipes</li>
-              <li>Blog</li>
-              <li>Contact</li>
-              <li>About us</li>
+              <li><a href="#">Recipes</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">About us</a></li>
             </ul>
           </nav>
         </div>
       </div>
       <div class="info_content">
-        <h5>© 2020 Flowbase.Powered by Webflow</h5>
-        <div id="icon_social networks">
-          <i class="fi fi-brands-facebook"></i>
-          <i class="fi fi-brands-twitter"></i>
-          <i class="fi fi-brands-instagram"></i>
+        <h5>© 2020 Flowbase.Powered by <span>Webflow</span></h5>
+        <div id="icon_social">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
         </div>
       </div>
     </footer>
